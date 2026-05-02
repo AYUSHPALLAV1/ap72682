@@ -1,0 +1,13 @@
+{
+  "name": "notification-app-be",
+  "version": "1.0.0",
+  "description": "Notification backend for priority inbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "logging_middleware": "file:../logging_middleware"
+  }
+}
